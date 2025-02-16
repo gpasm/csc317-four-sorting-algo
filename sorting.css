@@ -1,0 +1,134 @@
+html {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    background-color: #ebbd14;
+}
+
+header {
+    background-color: #231161;
+    color: #C99700;
+}
+
+.head-p {
+    text-align: center;
+    font-size: 20px;
+    width: 70%;
+    display: grid;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    display: grid;
+    max-width: 50%;
+    margin: 0 auto;
+    font-size: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+    width: auto;
+}
+
+
+.algorithm {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+ul {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /* padding-left: 40px; */
+    font-size: 25px;
+}
+
+/*Code*/
+pre {
+    font-family: "Source Code Pro", serif;
+    font-weight: 300;
+    font-style: normal;
+
+    text-align: left;
+    white-space: pre-wrap;
+    width: fit-content;
+    /* margin: auto;  */
+    box-sizing: border-box;
+
+
+    background-color: #f8f8f8;
+    border: 1px solid #3a5858;
+    border-radius: 10px;
+    padding: 10px 10px;
+
+}
+
+.language-javascript {
+    display: inline-block;
+    padding-right: 10%;
+    font-size: 12px;
+}
+
+
+.container {
+    padding-top: 20%;
+}
+
+
+/*Subheaders, paragraph*/
+h2 {
+    font-size: 100px;
+
+    padding-top: 50px;
+    text-align: left;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.imp-par {
+    color: black;
+    margin-left: 0;
+    width: 45%;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-size: 25px;
+    color: #231161;
+
+}
+
+/*Positioning*/
+.imp-par,
+.container {
+    margin: auto;
+    padding-left: 20px;
+    padding-bottom: 5%;
+}
+
+
+/*Footer*/
+
+.foot {
+    padding-top: 10px;
+}
+
+footer {
+    background-color: #231161;
+    color: #C99700;
+    font-style: bold;
+    font-size: 20px;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+a:visited {
+    color: #a07903;
+    background-color: transparent;
+    text-decoration: none;
+}

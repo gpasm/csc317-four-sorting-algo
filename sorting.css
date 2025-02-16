@@ -126,9 +126,3 @@ footer {
     text-align: center;
     padding-top: 20px;
 }
-
-a:visited {
-    color: #a07903;
-    background-color: transparent;
-    text-decoration: none;
-}
